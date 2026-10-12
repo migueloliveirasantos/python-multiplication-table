@@ -1,48 +1,29 @@
-# Multiplication Table
+## Installation
 
-A simple Python program that asks the user for an integer and displays its multiplication table from 1 to 10. It is intended for beginners learning Python and anyone who wants to quickly check the multiples of a number.
+Make sure Python 3 is installed. No external libraries are required.
+
+If you received the project files, open a terminal in the directory containing the `multiplication-table-python` folder and navigate into it:
+
+
+```bash
+cd multiplication-table-python
+```
+
+If you downloaded the repository as a ZIP file, extract it first and navigate into the extracted project folder.
 
 ## Demo
 
 <img src="multiplication-table-python/assets/Animation.gif" width="400" alt="Demonstração do projeto"> 
 
-## Requirements
-
-- Python 3
-- No external libraries required
-
-You can download Python from [python.org](https://www.python.org/downloads/).
-
-To check whether Python is installed, open a terminal and run:
-
-```bash
-python --version
-```
-
-## Installation
-
-1. Download or clone this repository.
-2. Open the project folder in your terminal.
-3. Make sure `main.py` is in the current directory.
-
-If you have Git installed, you can clone the repository with:
-
-```bash
-git clone https://github.com/migueloliveirasantos/python-multiplication-table.git
-cd python-multiplication-table
-```
-
-If you received the project as a ZIP file, extract it and open the extracted folder instead.
-
 ## Usage
 
-Run the program from the project folder:
+Run the program from inside the `multiplication-table-python` directory, where `main.py` is located:
 
 ```bash
 python main.py
 ```
 
-When prompted, enter an integer. For example, entering `7` produces the following output:
+Enter `7` when prompted to reproduce the example below:
 
 ```text
 7 * 1 = 7
@@ -57,26 +38,25 @@ When prompted, enter an integer. For example, entering `7` produces the followin
 7 * 10 = 70
 ```
 
-The program displays the first ten multiples of the number entered.
-
 ## Project Structure
 
 ```text
-multiplication-table-python/
-├── assets/
-│   └── Animation.gif
-├── LICENSE
-├── instructions.txt
-├── main.py
-└── README.md
+project/
+├── README.md
+└── multiplication-table-python/
+    ├── main.py
+    ├── LICENSE
+    ├── instructions.txt
+    └── assets/
+        └── Animation.gif
 ```
 
-- `main.py` — Reads the user's input and prints the multiplication table.
-- `instructions.txt` — Contains the project instructions.
-- `LICENSE` — Contains the MIT License.
-- `README.md` — Explains the project and how to run it.
-- `assets/Animation.gif` — Demonstrates the program running.
+- `multiplication-table-python/main.py` — Reads the user's input and prints the multiplication table.
+- `multiplication-table-python/instructions.txt` — Contains the project instructions.
+- `multiplication-table-python/LICENSE` — Contains the MIT License.
+- `multiplication-table-python/assets/Animation.gif` — Demonstrates the program running.
+- `README.md` — Documents the project and explains how to execute it.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
+This project is licensed under the MIT License. See the [LICENSE](multiplication-table-python/LICENSE) file for the full license text.
