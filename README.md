@@ -37,4 +37,4 @@ Enter a number when prompted, and the program will display its multiplication ta
 
 ## Demo
 
-<img src="./assets/Animation.gif" width="400" alt="Demonstração do projeto">
+<img src="multiplication-table-python/assets/Animation.gif" width="400" alt="Demonstração do projeto"> 
