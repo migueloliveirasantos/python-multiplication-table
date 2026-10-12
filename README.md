@@ -1,3 +1,7 @@
+# Multiplication Table
+
+A simple Python program that asks the user for a number and displays its multiplication table from 1 to 10. It is useful for students learning multiplication and beginners practicing basic Python programming.
+
 ## Installation
 
 Make sure Python 3 is installed. No external libraries are required.
