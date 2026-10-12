@@ -1,23 +1,26 @@
 # Multiplication Table
 
-A simple Python program that asks the user for a number and prints its multiplication table from 1 to 10.
+A simple Python program that calculates and displays the first ten multiples of a number entered by the user.
+
+## Demo
+
+<img src="multiplication-table-python/assets/Animation.gif" width="400" alt="Demonstração do projeto"> 
+
+## Who Is This For?
+
+This project is intended for beginners learning Python and anyone who wants a simple way to view a multiplication table.
 
 ## How to Run
 
-Make sure you have Python installed. Clone the repository and open its folder:
+Make sure Python 3 is installed on your computer.
 
-```bash
-git clone https://github.com/SEU-USUARIO/multiplication-table-python.git
-cd multiplication-table-python
-```
-
-Run the program:
+Open a terminal in the project folder, where `main.py` is located, and run:
 
 ```bash
 python main.py
 ```
 
-Enter a number when prompted, and the program will display its multiplication table.
+When prompted, enter `7` to reproduce the example below.
 
 ## Example
 
@@ -34,7 +37,31 @@ Enter a number when prompted, and the program will display its multiplication ta
 7 * 10 = 70
 ```
 
+## Project Structure
 
-## Demo
+```text
+multiplication-table-python/
+├── assets/
+│   └── Animation.gif
+├── LICENSE
+├── instructions.txt
+├── main.py
+└── README.md
+```
 
-<img src="multiplication-table-python/assets/Animation.gif" width="400" alt="Demonstração do projeto"> 
+- `main.py` — Reads the user's input and prints the multiplication table.
+- `instructions.txt` — Contains the project instructions.
+- `LICENSE` — Contains the MIT License.
+- `assets/Animation.gif` — Shows a demonstration of the program.
+- `README.md` — Documents the project and explains how to run it.
+
+## Concepts Practiced
+
+- User input and integer conversion
+- `for` loops and the `range()` function
+- Arithmetic operations
+- String formatting
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
